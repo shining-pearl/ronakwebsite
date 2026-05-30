@@ -114,12 +114,6 @@
  
       <!-- reward -->
       
-      <div id="reword-out">
-        <div id="reward-btn">
-          Donate
-        </div>
-      </div>
-      
     </div>
     
 
@@ -142,27 +136,11 @@
 <div class="share-btn">
       <span class="share-sns share-outer">
         <i class="ri-share-forward-line"></i>
-        分享
+        Share
       </span>
       <div class="share-wrap">
         <i class="arrow"></i>
         <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
           
           <a class="facebook share-sns" href="javascript:;" data-type="facebook">
             <i class="ri-facebook-circle-fill"></i>
@@ -179,9 +157,9 @@
 
 <div class="wx-share-modal">
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
+    <p>Scan to share on WeChat</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shining-pearl.github.io/ronakwebsite/2026/05/30/hello-world/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shining-pearl.github.io/ronakwebsite/2026/05/30/hello-world/" alt="WeChat share QR code">
     </div>
 </div>
 
@@ -196,7 +174,7 @@
     
     
       <a href="/ronakwebsite/2026/04/10/docker-compose/" class="article-nav-link">
-        <strong class="article-nav-caption">下一篇</strong>
+        <strong class="article-nav-caption">Next Post</strong>
         <div class="article-nav-title">Docker Compose Deep Dive</div>
       </a>
     
@@ -250,9 +228,7 @@
     </ul>
     <ul>
       <li>
-        <!-- cnzz统计 -->
-        
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        <!-- cnzz analytics -->
         
       </li>
     </ul>
@@ -280,35 +256,31 @@
   <ul class="nav nav-main">
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/">主页</a>
+      <a class="nav-item-link" href="/ronakwebsite/">Home</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/archives">归档</a>
+      <a class="nav-item-link" href="/ronakwebsite/archives">Archives</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/categories">分类</a>
+      <a class="nav-item-link" href="/ronakwebsite/categories">Categories</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/tags">标签</a>
+      <a class="nav-item-link" href="/ronakwebsite/tags">Tags</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+      <a class="nav-item-link" href="/ronakwebsite/travel">Travel</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
+      <a class="nav-item-link" href="/ronakwebsite/friends">Friends</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/ronakwebsite/2019/about">关于我</a>
+      <a class="nav-item-link" href="/ronakwebsite/CV">CV</a>
     </li>
     
   </ul>
@@ -341,19 +313,9 @@
 <!-- #reward -->
 <div id="reward">
   <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <p class="reward-p"><i class="ri-cup-line"></i>Buy me a coffee~</p>
   <div class="reward-box">
     
-    <div class="reward-item">
-      <img class="reward-img" src="/ronakwebsite/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/ronakwebsite/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
     
   </div>
 </div>
@@ -469,15 +431,15 @@
 
         $imgArr.forEach(($em, i) => {
             $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
+                // slider expanded state
+                // todo: this is not ideal, refactor into a state later
                 if (document.querySelector('.left-col.show')) return
                 let items = []
                 $imgArr.forEach(($em2, i2) => {
                     let img = $em2.getAttribute('data-idx', i2)
                     let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
                     let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
+                    // get original image dimensions
                     const image = new Image()
                     image.src = src
                     items.push({
@@ -541,7 +503,7 @@
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPIED';
         
-        wait(function () { // 等待两秒钟后恢复
+        wait(function () { // restore after two seconds
           $icon.removeClass('ri-checkbox-circle-line');
           $icon.addClass('ri-file-copy-2-line');
           $span[0].innerText = 'COPY';
@@ -557,7 +519,7 @@
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPY FAILED';
         
-        wait(function () { // 等待两秒钟后恢复
+        wait(function () { // restore after two seconds
           $icon.removeClass('ri-time-line');
           $icon.addClass('ri-file-copy-2-line');
           $span[0].innerText = 'COPY';
