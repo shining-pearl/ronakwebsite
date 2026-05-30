@@ -77,15 +77,15 @@
 
         $imgArr.forEach(($em, i) => {
             $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
+                // slider expanded state
+                // todo: this is not ideal, refactor into a state later
                 if (document.querySelector('.left-col.show')) return
                 let items = []
                 $imgArr.forEach(($em2, i2) => {
                     let img = $em2.getAttribute('data-idx', i2)
                     let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
                     let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
+                    // get original image dimensions
                     const image = new Image()
                     image.src = src
                     items.push({

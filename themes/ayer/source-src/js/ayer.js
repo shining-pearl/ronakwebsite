@@ -172,7 +172,7 @@
   });
 
   // ShowThemeInConsole
-  const ayerInfo = "主题不错？⭐star 支持一下 ->";
+  const ayerInfo = "Like this theme? ⭐ star to support ->";
   const ayerURL = "https://github.com/Shen-Yu/hexo-theme-ayer";
   const ayerNameStr =
     "\n\n     _ __   _______ _____    \n    / \\ \\ \\ / / ____|  _  \\  \n   / _ \\ \\ V /|  _| | |_) |  \n  / ___ \\ | | | |___|  _ <   \n /_/   \\_\\ _| |_____|_| \\__\\ \n";

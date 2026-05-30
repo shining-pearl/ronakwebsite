@@ -26,7 +26,7 @@
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPIED';
         
-        wait(function () { // 等待两秒钟后恢复
+        wait(function () { // restore after two seconds
           $icon.removeClass('ri-checkbox-circle-line');
           $icon.addClass('ri-file-copy-2-line');
           $span[0].innerText = 'COPY';
@@ -42,7 +42,7 @@
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPY FAILED';
         
-        wait(function () { // 等待两秒钟后恢复
+        wait(function () { // restore after two seconds
           $icon.removeClass('ri-time-line');
           $icon.addClass('ri-file-copy-2-line');
           $span[0].innerText = 'COPY';

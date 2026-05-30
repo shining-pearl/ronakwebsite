@@ -1,26 +1,25 @@
-# 侧边栏菜单
+# Sidebar menu
 menu:
-  主页: /
-  归档: /archives
-  分类: /categories
-  标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
-  友链: /friends
-  关于我: /2019/about
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  Travel: /travel
+  Friends: /friends
+  CV: /CV
 
-# 站点次标题和打字动效
+# Site subtitle and typing animation
 # https://github.com/mattboldt/typed.js
 subtitle:
-  enable: true # 是否开启动效
-  text: 面朝大海，春暖花开 # 显示的文字
-  text2: 愿你一生努力，一生被爱 # 滚动播放，如果不需要可以留空
-  text3: 想要的都拥有，得不到的都释怀 # 最多支持三段文字
-  startDelay: 0 # 延迟时间
-  typeSpeed: 200 # 打字速度
-  loop: true # 是否循环
-  backSpeed: 100 # 回退速度
-  showCursor: true # 是否显示光标
+  enable: true # enable typing animation
+  text: Welcome to my blog # displayed text
+  text2: Notes on tech, security and data # scrolling text, leave blank if not needed
+  text3: Always learning, always building # up to three lines supported
+  startDelay: 0 # delay time
+  typeSpeed: 200 # typing speed
+  loop: true # whether to loop
+  backSpeed: 100 # backspace speed
+  showCursor: true # whether to show cursor
 
 # 网站图标和侧边栏logo
 favicon: /favicon.ico
@@ -36,33 +35,33 @@ cover:
 # 页面顶部进度条
 progressBar: true
 
-# 告示板模块
+# Broadcast board
 broadcast:
-  enable: true # true开启，false关闭
-  type: 2 # 1：自定义输入，2：一言api(https://hitokoto.cn/)
-  text: 一个安静优雅的hexo主题，快速且响应式。 # type为1时有效
+  enable: true # true to enable, false to disable
+  type: 1 # 1: custom text, 2: hitokoto api (Chinese, https://hitokoto.cn/)
+  text: A quiet and elegant blog — fast and responsive. # used when type is 1
 
-# 文章配置
-# 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
-excerpt_link: 阅读更多...
+# Post settings
+# Truncation button text (add <!--more--> on the line where you want to truncate)
+excerpt_link: Read more...
 # 如果你嫌每篇文章手动加more标记比较麻烦，又不想在首页全文显示，可以把excerpt_all设置成true，这样首页只会显示文章归档
 excerpt_all: false
 
-# 是否开启代码复制按钮
+# Enable code copy button
 copy_btn: true
-# 是否开启文章分享按钮
+# Enable post share buttons
 share_enable: true
-# 国内的社交平台(If you are not in China, maybe you prefer to set:false)
-share_china: true
-# 文章分享文字
-share_text: 分享
+# Chinese social platforms (If you are not in China, maybe you prefer to set:false)
+share_china: false
+# Share button text
+share_text: Share
 
-# 分页文字
+# Pagination text
 nav_text:
-  page_prev: 上一页
-  page_next: 下一页
-  post_prev: 上一篇
-  post_next: 下一篇
+  page_prev: Previous
+  page_next: Next
+  post_prev: Previous Post
+  post_next: Next Post
 
 # 文章页是否显示目录
 toc: true
@@ -78,15 +77,15 @@ word_count:
   # 只在文章详情显示(不在首页显示)
   only_article_visit: true
 
-# 打赏
-# 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
-# 打赏wording
-reward_wording: "请我喝杯咖啡吧~"
-# 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/alipay.jpg
-# 微信二维码图片地址
-weixin: /images/wechat.jpg
+# Donate / reward
+# reward_type: 0-disabled; 1-only posts with reward:true in front-matter; 2-all posts
+reward_type: 0
+# Reward wording
+reward_wording: "Buy me a coffee~"
+# Alipay QR image path (leave blank to hide)
+alipay:
+# WeChat QR image path (leave blank to hide)
+weixin:
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -137,9 +136,9 @@ music:
 busuanzi:
   enable: true
 
-# 友盟cnzz统计(url填js代码src链接)
+# cnzz analytics (Chinese) - disabled
 cnzz:
-  enable: true
+  enable: false
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
@@ -178,25 +177,19 @@ gongan:
   url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=01234567890123" #公安备案链接
   text: "浙公网安备01234567890123号" #公安备案信息
 
-# 友情链接
+# Friend links
 friends_link:
-  Ayer主题: #网站名称
-    #网站地址
+  Ayer Theme: # site name
+    # site url
     url: https://github.com/Shen-Yu/hexo-theme-ayer
-    #网站图片(可忽略不写)
+    # site image (optional)
     img: /images/ayer.png
   GitHub:
-    url: https://github.com/Shen-Yu
+    url: https://github.com/shining-pearl
     img: /images/github.png
-  码云:
-    url: https://gitee.com/shen-yu
-    img: /images/gitee.png
-  Hexo官网:
+  Hexo:
     url: https://hexo.io
     img: /images/hexo.png
-  Hexo图表插件:
-    url: https://github.com/Shen-Yu/hexo-tag-chart
-    img: /images/hexo-tag-chart.png
 
 # 评论：1、Valine(推荐)；2、Gitalk；3、Twikoo; 4.MiniValine
 
@@ -235,19 +228,9 @@ minivaline:
   # 下面是一个例子：
   serverURL: https://minivaline.your-domain.com
 
-# 首页广告配置
-# 可以根据需要自行增加ad_3，ad_4...，留空则不显示，建议图片和url不要带ad等关键词，否则可能会被adblock等插件屏蔽
+# Homepage ads
+# Add ad_3, ad_4... as needed; leave blank to hide. Disabled by default.
 ads:
-  ad_1:
-    title: 云服务器限时秒杀
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg
-    url: https://curl.qcloud.com/kvO7hb43
-    width: 300
-  ad_2:
-    title: vultr优惠vps
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png
-    url: https://www.vultr.com/?ref=8630075
-    width: 300
 
 # 网站开启加密访问，密码可设置任何字符
 lock:

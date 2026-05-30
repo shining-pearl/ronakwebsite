@@ -21,7 +21,7 @@
     <ul>
       <li>
         <% if (theme.busuanzi && theme.busuanzi.enable){ %>
-        <%# "不蒜子统计" %>
+        <%# "busuanzi analytics" %>
         <%- partial('post/busuanzi') %>
         <% } %>
       </li>
@@ -43,7 +43,7 @@
     </ul>
     <ul>
       <li>
-        <!-- cnzz统计 -->
+        <!-- cnzz analytics -->
         <% if (theme.cnzz&&theme.cnzz.enable){ %>
         <script type="text/javascript" src='<%= theme.cnzz.url%>'></script>
         <% } %>
