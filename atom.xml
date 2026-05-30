@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Mingwei Li</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://shining-pearl.github.io/ronakwebsite/</id>
+  <link href="https://shining-pearl.github.io/ronakwebsite/" rel="alternate"/>
+  <link href="https://shining-pearl.github.io/ronakwebsite/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Mingwei Li</rights>
+  <title>Mingwei's Blog</title>
+  <updated>2026-05-30T12:53:53.552Z</updated>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="General" scheme="https://shining-pearl.github.io/ronakwebsite/categories/General/"/>
+    <category term="general" scheme="https://shining-pearl.github.io/ronakwebsite/tags/general/"/>
+    <content>
+      <![CDATA[<p>Welcome to Mingwei’s Blog! This blog covers topics including C#, Cybersecurity, DSA, Docker, SDN, Forensics, Satellite, Secured Software Engineering, and Data Analysis.</p><span id="more"></span><p>Stay tuned for posts on these topics and more.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/05/30/hello-world/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/05/30/hello-world/"/>
+    <published>2026-05-30T11:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to Mingwei’s Blog! This blog covers topics including C#, Cybersecurity, DSA, Docker, SDN, Forensics, Satellite, Secured Software Engineering, and Data Analysis.</p>]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-05-30T12:53:53.552Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Docker" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Docker/"/>
+    <category term="Docker" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Docker/"/>
+    <category term="DevOps" scheme="https://shining-pearl.github.io/ronakwebsite/tags/DevOps/"/>
+    <content>
+      <![CDATA[<p>This post covers docker compose deep dive.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/04/10/docker-compose/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/04/10/docker-compose/"/>
+    <published>2026-04-10T11:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers docker compose deep dive.</p>]]>
+    </summary>
+    <title>Docker Compose Deep Dive</title>
+    <updated>2026-05-30T12:54:06.527Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Data Analysis" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Data-Analysis/"/>
+    <category term="Python" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Python/"/>
+    <category term="Data Analysis" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Data-Analysis/"/>
+    <content>
+      <![CDATA[<p>This post covers data analysis with python.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/04/01/data-analysis-python/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/04/01/data-analysis-python/"/>
+    <published>2026-04-01T11:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers data analysis with python.</p>]]>
+    </summary>
+    <title>Data Analysis with Python</title>
+    <updated>2026-05-30T12:54:06.523Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Secured Software Engineering" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Secured-Software-Engineering/"/>
+    <category term="Security" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Security/"/>
+    <category term="Software Engineering" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Software-Engineering/"/>
+    <content>
+      <![CDATA[<p>This post covers secured software engineering principles.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/03/20/secured-software-engineering/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/03/20/secured-software-engineering/"/>
+    <published>2026-03-20T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers secured software engineering principles.</p>]]>
+    </summary>
+    <title>Secured Software Engineering Principles</title>
+    <updated>2026-05-30T12:54:06.515Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Satellite" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Satellite/"/>
+    <category term="Satellite" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Satellite/"/>
+    <category term="Networks" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Networks/"/>
+    <content>
+      <![CDATA[<p>This post covers satellite communication basics.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/03/10/satellite-communication/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/03/10/satellite-communication/"/>
+    <published>2026-03-10T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers satellite communication basics.</p>]]>
+    </summary>
+    <title>Satellite Communication Basics</title>
+    <updated>2026-05-30T12:54:06.511Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Forensics" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Forensics/"/>
+    <category term="Security" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Security/"/>
+    <category term="Forensics" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Forensics/"/>
+    <content>
+      <![CDATA[<p>This post covers introduction to digital forensics.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/03/01/digital-forensics-intro/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/03/01/digital-forensics-intro/"/>
+    <published>2026-03-01T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers introduction to digital forensics.</p>]]>
+    </summary>
+    <title>Introduction to Digital Forensics</title>
+    <updated>2026-05-30T12:54:06.508Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="SDN" scheme="https://shining-pearl.github.io/ronakwebsite/categories/SDN/"/>
+    <category term="SDN" scheme="https://shining-pearl.github.io/ronakwebsite/tags/SDN/"/>
+    <category term="Networking" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Networking/"/>
+    <content>
+      <![CDATA[<p>This post covers software defined networking overview.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/02/20/sdn-overview/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/02/20/sdn-overview/"/>
+    <published>2026-02-20T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers software defined networking overview.</p>]]>
+    </summary>
+    <title>Software Defined Networking Overview</title>
+    <updated>2026-05-30T12:54:06.504Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Cybersecurity" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Cybersecurity/"/>
+    <category term="Cybersecurity" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Cybersecurity/"/>
+    <category term="Security" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Security/"/>
+    <content>
+      <![CDATA[<p>This post covers cybersecurity fundamentals.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/02/10/cybersecurity-fundamentals/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/02/10/cybersecurity-fundamentals/"/>
+    <published>2026-02-10T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers cybersecurity fundamentals.</p>]]>
+    </summary>
+    <title>Cybersecurity Fundamentals</title>
+    <updated>2026-05-30T12:54:06.498Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="DSA" scheme="https://shining-pearl.github.io/ronakwebsite/categories/DSA/"/>
+    <category term="DSA" scheme="https://shining-pearl.github.io/ronakwebsite/tags/DSA/"/>
+    <category term="Algorithms" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Algorithms/"/>
+    <content>
+      <![CDATA[<p>This post covers sorting algorithms in dsa.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/02/01/dsa-sorting-algorithms/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/02/01/dsa-sorting-algorithms/"/>
+    <published>2026-02-01T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers sorting algorithms in dsa.</p>]]>
+    </summary>
+    <title>Sorting Algorithms in DSA</title>
+    <updated>2026-05-30T12:54:06.495Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="C#" scheme="https://shining-pearl.github.io/ronakwebsite/categories/C/"/>
+    <category term="C#" scheme="https://shining-pearl.github.io/ronakwebsite/tags/C/"/>
+    <category term=".NET" scheme="https://shining-pearl.github.io/ronakwebsite/tags/NET/"/>
+    <content>
+      <![CDATA[<p>This post covers c# fundamentals.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/01/20/csharp-basics/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/01/20/csharp-basics/"/>
+    <published>2026-01-20T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers c# fundamentals.</p>]]>
+    </summary>
+    <title>C# Fundamentals</title>
+    <updated>2026-05-30T12:54:06.486Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <category term="Docker" scheme="https://shining-pearl.github.io/ronakwebsite/categories/Docker/"/>
+    <category term="Docker" scheme="https://shining-pearl.github.io/ronakwebsite/tags/Docker/"/>
+    <category term="DevOps" scheme="https://shining-pearl.github.io/ronakwebsite/tags/DevOps/"/>
+    <content>
+      <![CDATA[<p>This post covers introduction to docker.</p><span id="more"></span><p>Content coming soon.</p>]]>
+    </content>
+    <id>https://shining-pearl.github.io/ronakwebsite/2026/01/15/intro-to-docker/</id>
+    <link href="https://shining-pearl.github.io/ronakwebsite/2026/01/15/intro-to-docker/"/>
+    <published>2026-01-15T12:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>This post covers introduction to docker.</p>]]>
+    </summary>
+    <title>Introduction to Docker</title>
+    <updated>2026-05-30T12:54:06.480Z</updated>
+  </entry>
+</feed>
