@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://FCBayern1.github.io
+url: https://shining-pearl.github.io/ronakwebsite
+root: /ronakwebsite/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -115,5 +116,5 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/FCBayern1/FCBayern1.github.io
-  branch: main
+  repo: https://github.com/shining-pearl/ronakwebsite
+  branch: gh-pages
